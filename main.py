@@ -5,6 +5,11 @@ def main():
     """
     Code Your Program here
     """
+    maxnum = num1
+    if num2> maxnum:
+        maxnum=num2
+    if num3>maxnum:
+        maxnum=num3
 
     print(f'The greates number is {maxnum}')
     ########################################
